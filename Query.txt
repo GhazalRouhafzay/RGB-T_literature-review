@@ -1,0 +1,24 @@
+IEEE Query:
+
+(
+"RGB-T" OR
+"visible thermal fusion" OR
+"infrared visible fusion" OR
+"RGB thermal fusion" OR
+"multispectral fusion"
+)
+AND
+(
+"object detection" OR tracking OR segmentation 
+OR "pedestrian detection" OR "person re-identification" 
+OR "autonomous driving"
+)
+AND
+(
+night OR "low light" OR fog OR haze OR smoke 
+OR rain OR dust OR camouflage
+)
+
+
+
+
