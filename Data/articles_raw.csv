@@ -1,31 +1,31 @@
-ID,Title,Domain,Task,Modality,Fusion_Type,Application
-1,A Deep Learning Model for Spatiotemporal Fusion of Thermal Infrared and Passive Microwave Data,Remote Sensing,Fusion,Thermal+Microwave,Early Fusion,Environmental Monitoring
-2,Target-Aware Fusion for RGB-T Pedestrian Detection,Computer Vision,Detection,RGB-T,Deep Fusion,Pedestrian Detection
-3,Deep Learning-Based Multimodal Fusion for Heart Rate and Stress Estimation,Healthcare,Estimation,Multimodal,Deep Fusion,Health Monitoring
-4,Adaptive Hierarchical Feature Difference Auto-Encoder for Robust RGB-T Object Tracking,Computer Vision,Tracking,RGB-T,Feature Fusion,Object Tracking
-5,Multi-Modal Fusion for End-to-End RGB-T Tracking,Computer Vision,Tracking,RGB-T,Deep Fusion,Object Tracking
-6,Adaptive Hierarchical Feature Difference Auto-Encoder for Robust RGB-T Object Tracking,Computer Vision,Tracking,RGB-T,Feature Fusion,Object Tracking
-7,FAD-STF: Spatiotemporal Fusion Model for Thermal Infrared and Passive Microwave Data,Remote Sensing,Fusion,Thermal+Microwave,Early Fusion,Climate Analysis
-8,Multi-Modal Fusion for End-to-End RGB-T Tracking,Computer Vision,Tracking,RGB-T,Deep Fusion,Object Tracking
-9,EGFNet: Edge-Aware Guidance Fusion Network for RGB–Thermal Urban Scene Parsing,Computer Vision,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding
-10,Efficient RGB-T Tracking via Cross-Modality Distillation,Computer Vision,Tracking,RGB-T,Knowledge Distillation,Object Tracking
-11,Improving Autonomous Vehicle Cognitive Robustness with Thermal Fusion,Autonomous Driving,Detection,RGB-T,Deep Fusion,Autonomous Vehicles
-12,RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes,Computer Vision,Segmentation,RGB-T,Deep Fusion,Urban Scene Understanding
-13,Robust RGB-T Object Detection via Quality-Aware Decision Fusion,Computer Vision,Detection,RGB-T,Decision Fusion,Object Detection
-14,Siamese Network with Hybrid Fusion Strategy for RGB-T Tracking,Computer Vision,Tracking,RGB-T,Hybrid Fusion,Object Tracking
-15,Enhanced Thermal-RGB Fusion for Robust Object Detection,Computer Vision,Detection,RGB-T,Deep Fusion,Object Detection
-16,Content-Aware Correlation Filter with Multi-Feature Fusion for RGB-T Tracking,Computer Vision,Tracking,RGB-T,Feature Fusion,Object Tracking
-17,DBCNet: Dynamic Bilateral Cross-Fusion Network for RGB-T Urban Scene Understanding,Autonomous Driving,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding
-18,Embedded Control Gate Fusion and Attention Residual Learning for RGB–Thermal Parsing,Computer Vision,Segmentation,RGB-T,Attention Fusion,Scene Parsing
-19,MFFENet: Multiscale Feature Fusion Network for RGB–Thermal Urban Scene Parsing,Computer Vision,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding
-20,RGB-Thermal Fusion Network for Leakage Detection of Crude Oil Pipes,Industry,Detection,RGB-T,Deep Fusion,Industrial Monitoring
-21,ShadowSense: Feature Fusion for Tree Crown Detection from RGB-Thermal Drone Imagery,Remote Sensing,Detection,RGB-T,Deep Fusion,Agriculture Monitoring
-22,ABMDRNet: Adaptive-weighted Network for RGB-T Semantic Segmentation,Computer Vision,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding
-23,Dynamic Feature Fusion for MDNet-Based Tracking,Computer Vision,Tracking,Multimodal,Feature Fusion,Object Tracking
-24,Visible–Infrared Dual-Sensor Fusion for Single-Object Tracking,Computer Vision,Tracking,RGB-T,Sensor Fusion,Object Tracking
-25,Fusion of Visual and Thermal Signatures for Face Recognition,Biometrics,Recognition,RGB-T,Feature Fusion,Face Recognition
-26,Multi-Modal Fusion for End-to-End RGB-T Tracking,Computer Vision,Tracking,RGB-T,Deep Fusion,Object Tracking
-27,Multiinformation Fusion for Land Surface Temperature Mapping,Remote Sensing,Fusion,Thermal,Early Fusion,Environmental Monitoring
-28,Deep Learning-Based Multimodal Fusion for Target Detection,Computer Vision,Detection,Multimodal,Deep Fusion,Object Detection
-29,MDNet: RGB-Thermal Urban Dense Prediction Network,Computer Vision,Segmentation,RGB-T,Deep Fusion,Urban Scene Understanding
-30,Visible and Infrared Image Fusion Using Deep Learning,Computer Vision,Fusion,RGB-T,Deep Fusion,General Vision
+ID,Title,Domain,Task,Modality,Fusion_Type,Application,Source,Decision,Reason,Score
+1,A Deep Learning Model for Spatiotemporal Fusion of Thermal Infrared and Passive Microwave Data,Remote Sensing,Fusion,Thermal+Microwave,Early Fusion,Environmental Monitoring,IEEE,Include,Score≥4: Fusion, 5
+2,Target-Aware Fusion for RGB-T Pedestrian Detection,Computer Vision,Detection,RGB-T,Deep Fusion,Pedestrian Detection,IEEE,Include,Score≥4: Fusion, 4
+3,Deep Learning-Based Multimodal Fusion for Heart Rate and Stress Estimation,Healthcare,Estimation,Multimodal,Deep Fusion,Health Monitoring,IEEE,Include,Score≥4: Fusion, 4
+4,Adaptive Hierarchical Feature Difference Auto-Encoder for Robust RGB-T Object Tracking,Computer Vision,Tracking,RGB-T,Feature Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 5
+5,Multi-Modal Fusion for End-to-End RGB-T Tracking,Computer Vision,Tracking,RGB-T,Deep Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 4
+6,Adaptive Hierarchical Feature Difference Auto-Encoder for Robust RGB-T Object Tracking,Computer Vision,Tracking,RGB-T,Feature Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 5
+7,FAD-STF: Spatiotemporal Fusion Model for Thermal Infrared and Passive Microwave Data,Remote Sensing,Fusion,Thermal+Microwave,Early Fusion,Climate Analysis,IEEE,Include,Score≥4: Fusion, 5
+8,Multi-Modal Fusion for End-to-End RGB-T Tracking,Computer Vision,Tracking,RGB-T,Deep Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 4
+9,EGFNet: Edge-Aware Guidance Fusion Network for RGB–Thermal Urban Scene Parsing,Computer Vision,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding,IEEE,Include,Score≥4: Fusion, 5
+10,Efficient RGB-T Tracking via Cross-Modality Distillation,Computer Vision,Tracking,RGB-T,Knowledge Distillation,Object Tracking,IEEE,Include,Score≥4: Fusion, 4
+11,Improving Autonomous Vehicle Cognitive Robustness with Thermal Fusion,Autonomous Driving,Detection,RGB-T,Deep Fusion,Autonomous Vehicles,IEEE,Include,Score≥4: Fusion, 4
+12,RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes,Computer Vision,Segmentation,RGB-T,Deep Fusion,Urban Scene Understanding,IEEE,Include,Score≥4: Fusion, 5
+13,Robust RGB-T Object Detection via Quality-Aware Decision Fusion,Computer Vision,Detection,RGB-T,Decision Fusion,Object Detection,IEEE,Include,Score≥4: Fusion, 5
+14,Siamese Network with Hybrid Fusion Strategy for RGB-T Tracking,Computer Vision,Tracking,RGB-T,Hybrid Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 4
+15,Enhanced Thermal-RGB Fusion for Robust Object Detection,Computer Vision,Detection,RGB-T,Deep Fusion,Object Detection,IEEE,Include,Score≥4: Fusion, 5
+16,Content-Aware Correlation Filter with Multi-Feature Fusion for RGB-T Tracking,Computer Vision,Tracking,RGB-T,Feature Fusion,Object Tracking,BIAI,Include,Score≥4: Fusion, 4
+17,DBCNet: Dynamic Bilateral Cross-Fusion Network for RGB-T Urban Scene Understanding,Autonomous Driving,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding,IEEE,Include,Score≥4: Fusion, 5
+18,Embedded Control Gate Fusion and Attention Residual Learning for RGB–Thermal Parsing,Computer Vision,Segmentation,RGB-T,Attention Fusion,Scene Parsing,IEEE,Include,Score≥4: Fusion, 5
+19,MFFENet: Multiscale Feature Fusion Network for RGB–Thermal Urban Scene Parsing,Computer Vision,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding,IEEE,Include,Score≥4: Fusion, 5
+20,RGB-Thermal Fusion Network for Leakage Detection of Crude Oil Pipes,Industry,Detection,RGB-T,Deep Fusion,Industrial Monitoring,IEEE,Include,Score≥4: Fusion, 4
+21,ShadowSense: Feature Fusion for Tree Crown Detection from RGB-Thermal Drone Imagery,Remote Sensing,Detection,RGB-T,Deep Fusion,Agriculture Monitoring,IEEE,Include,Score≥4: Fusion, 5
+22,ABMDRNet: Adaptive-weighted Network for RGB-T Semantic Segmentation,Computer Vision,Segmentation,RGB-T,Feature Fusion,Urban Scene Understanding,IEEE,Include,Score≥4: Fusion, 5
+23,Dynamic Feature Fusion for MDNet-Based Tracking,Computer Vision,Tracking,Multimodal,Feature Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 4
+24,Visible–Infrared Dual-Sensor Fusion for Single-Object Tracking,Computer Vision,Tracking,RGB-T,Sensor Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 4
+25,Fusion of Visual and Thermal Signatures for Face Recognition,Biometrics,Recognition,RGB-T,Feature Fusion,Face Recognition,IEEE,Include,Score≥4: Fusion, 5
+26,Multi-Modal Fusion for End-to-End RGB-T Tracking,Computer Vision,Tracking,RGB-T,Deep Fusion,Object Tracking,IEEE,Include,Score≥4: Fusion, 4
+27,Multiinformation Fusion for Land Surface Temperature Mapping,Remote Sensing,Fusion,Thermal,Early Fusion,Environmental Monitoring,IEEE,Include,Score≥4: Fusion, 5
+28,Deep Learning-Based Multimodal Fusion for Target Detection,Computer Vision,Detection,Multimodal,Deep Fusion,Object Detection,IEEE,Include,Score≥4: Fusion, 5
+29,MDNet: RGB-Thermal Urban Dense Prediction Network,Computer Vision,Segmentation,RGB-T,Deep Fusion,Urban Scene Understanding,IEEE,Include,Score≥4: Fusion, 5
+30,Visible and Infrared Image Fusion Using Deep Learning,Computer Vision,Fusion,RGB-T,Deep Fusion,General Vision,IEEE,Include,Score≥4: Fusion, 5
