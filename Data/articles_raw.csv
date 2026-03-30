@@ -1,1 +1,43 @@
 
+import pandas as pd
+
+# Liste des articles (Title + Abstract simplifié)
+data = [
+    [1, "Target-Aware Fusion for RGB-T Pedestrian Detection",
+     "This paper proposes a target-aware fusion method for RGB-T pedestrian detection using deep learning."],
+
+    [2, "Adaptive Hierarchical Feature Difference Auto-Encoder for Robust RGB-T Object Tracking",
+     "This work introduces a hierarchical feature difference auto-encoder for robust RGB-T tracking."],
+
+    [3, "Multi-Modal Fusion for End-to-End RGB-T Tracking",
+     "Proposes an end-to-end multimodal fusion framework for RGB-T tracking tasks."],
+
+    [4, "EGFNet: Edge-Aware Guidance Fusion Network for RGB–Thermal Urban Scene Parsing",
+     "Introduces an edge-aware fusion network for RGB-thermal semantic segmentation."],
+
+    [5, "RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes",
+     "A deep learning network for RGB-T fusion applied to urban scene segmentation."],
+
+    [6, "Enhanced Thermal-RGB Fusion for Robust Object Detection",
+     "Proposes an enhanced fusion strategy for improving object detection performance."],
+
+    [7, "Efficient RGB-T Tracking via Cross-Modality Distillation",
+     "Uses knowledge distillation across modalities to improve RGB-T tracking."],
+
+    [8, "Robust RGB-T Object Detection via Quality-Aware Decision Fusion",
+     "Applies decision-level fusion using Dempster-Shafer theory for detection."],
+
+    [9, "DBCNet: Dynamic Bilateral Cross-Fusion Network for RGB-T Urban Scene Understanding",
+     "Introduces a dynamic cross-fusion network for urban scene understanding."],
+
+    [10, "Visible and Infrared Image Fusion Using Deep Learning",
+     "A comprehensive study on deep learning techniques for visible-infrared fusion."]
+]
+
+# Création du DataFrame
+df = pd.DataFrame(data, columns=["ID", "Title", "Abstract"])
+
+# Sauvegarde en CSV
+df.to_csv("articles_raw.csv", index=False)
+
+print("✅ Fichier créé : articles_raw.csv")
