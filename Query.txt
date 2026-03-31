@@ -19,6 +19,31 @@ night OR "low light" OR fog OR haze OR smoke
 OR rain OR dust OR camouflage
 )
 
+SCOPUS Query :
+(TITLE-ABS-KEY("RGB-T" 
+                OR "visible thermal fusion" 
+                OR "infrared visible fusion" 
+                OR "RGB thermal fusion" 
+                OR "multispectral fusion"))
+AND
+(TITLE-ABS-KEY("object detection" 
+                OR tracking 
+                OR segmentation 
+                OR "pedestrian detection" 
+                OR "person re-identification" 
+                OR "autonomous driving"))
+AND
+(TITLE-ABS-KEY(night 
+                OR "low light" 
+                OR fog 
+                OR haze 
+                OR smoke 
+                OR rain 
+                OR dust 
+                OR camouflage))
+
+GOOGLE SCHOLAR Query :
+
 
 
 
