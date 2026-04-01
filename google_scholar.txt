@@ -1,9 +1,3 @@
-Query:
-("RGB-T" OR "RGB thermal fusion" OR "visible thermal fusion" OR "infrared visible fusion" OR "multispectral fusion")
-AND ("object detection" OR tracking OR segmentation OR "pedestrian detection" OR "person re-identification" OR "autonomous driving")
-AND (night OR "low light" OR fog OR haze OR smoke OR rain OR dust OR camouflage)
-
-------------------------------------------------------------
 
 [1] Title: Target-Aware Fusion for RGB-T Pedestrian Detection
 Authors: Li et al.
