@@ -43,6 +43,11 @@ AND
                 OR camouflage))
 
 GOOGLE SCHOLAR Query :
+("RGB-T" OR "RGB thermal fusion" OR "visible thermal fusion"
+OR "infrared visible fusion") 
+AND ("object detection" OR tracking OR segmentation) 
+AND (night OR "low light" OR fog) 
+AND (recent OR "state of the art")
 
 
 
