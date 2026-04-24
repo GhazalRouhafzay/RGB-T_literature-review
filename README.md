@@ -9,7 +9,7 @@ The goal is to identify and analyze relevant scientific articles using a structu
 
 ---
 
-## Project Structure (Explained)
+## Project Structure
 
 The repository is organized to clearly reflect each step of the research pipeline:
 
